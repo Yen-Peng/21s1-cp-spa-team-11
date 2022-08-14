@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="autotester"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\src\;CMake Files\src\spa\;CMake Files\src\autotester\;CMake Files\src\unit_testing\;CMake Files\src\integration_testing\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="spa">
+				<Option output="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/spa/libspa.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/spa"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/lib"/>
+					<Add directory="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/spa/Makefile&quot;  VERBOSE=1 spa"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/spa/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/spa/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/spa/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="spa/fast">
+				<Option output="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/spa/libspa.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/spa"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/lib"/>
+					<Add directory="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/spa/Makefile&quot;  VERBOSE=1 spa/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/spa/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/spa/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/spa/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="autotester">
+				<Option output="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/autotester/autotester" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/autotester"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/lib"/>
+					<Add directory="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/autotester/Makefile&quot;  VERBOSE=1 autotester"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/autotester/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/autotester/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/autotester/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="autotester/fast">
+				<Option output="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/autotester/autotester" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/autotester"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/lib"/>
+					<Add directory="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/autotester/Makefile&quot;  VERBOSE=1 autotester/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/autotester/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/autotester/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/autotester/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unit_testing">
+				<Option output="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/unit_testing/unit_testing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/unit_testing"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/lib"/>
+					<Add directory="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/unit_testing/Makefile&quot;  VERBOSE=1 unit_testing"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/unit_testing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/unit_testing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/unit_testing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unit_testing/fast">
+				<Option output="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/unit_testing/unit_testing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/unit_testing"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/lib"/>
+					<Add directory="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/unit_testing/Makefile&quot;  VERBOSE=1 unit_testing/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/unit_testing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/unit_testing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/unit_testing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="integration_testing">
+				<Option output="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/integration_testing/integration_testing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/integration_testing"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/lib"/>
+					<Add directory="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/integration_testing/Makefile&quot;  VERBOSE=1 integration_testing"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/integration_testing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/integration_testing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/integration_testing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="integration_testing/fast">
+				<Option output="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/integration_testing/integration_testing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/integration_testing"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/lib"/>
+					<Add directory="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/integration_testing/Makefile&quot;  VERBOSE=1 integration_testing/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/integration_testing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/integration_testing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-release/src/integration_testing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/autotester/src/TestWrapper.cpp">
+			<Option target="autotester"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/autotester/src/TestWrapper.h">
+			<Option target="autotester"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/integration_testing/src/ParserPKB.cpp">
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/integration_testing/src/TestQppQvQe.cpp">
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/integration_testing/src/main.cpp">
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/CrossProductStruct.cpp">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/CrossProductStruct.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/CustomFunctions.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/DE/AffectsBipExtractor.cpp">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/DE/AffectsBipExtractor.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/DE/AffectsExtractor.cpp">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/DE/AffectsExtractor.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/DE/AssignmentExtractor.cpp">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/DE/AssignmentExtractor.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/DE/BinaryTree.cpp">
+			<Option target="autotester"/>
+			<Option target="unit_testing"/>
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/DE/BinaryTree.h">
+			<Option target="spa"/>
+			<Option target="autotester"/>
+			<Option target="unit_testing"/>
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/DE/BinaryTreeNode.cpp">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/DE/BinaryTreeNode.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/DE/DesignExtractor.cpp">
+			<Option target="autotester"/>
+			<Option target="unit_testing"/>
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/DE/DesignExtractor.h">
+			<Option target="spa"/>
+			<Option target="autotester"/>
+			<Option target="unit_testing"/>
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/DE/Graph.cpp">
+			<Option target="autotester"/>
+			<Option target="unit_testing"/>
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/DE/Graph.h">
+			<Option target="spa"/>
+			<Option target="autotester"/>
+			<Option target="unit_testing"/>
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/DE/GraphNode.cpp">
+			<Option target="autotester"/>
+			<Option target="unit_testing"/>
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/DE/GraphNode.h">
+			<Option target="autotester"/>
+			<Option target="unit_testing"/>
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/DE/LinkedList.cpp">
+			<Option target="autotester"/>
+			<Option target="unit_testing"/>
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/DE/LinkedList.h">
+			<Option target="spa"/>
+			<Option target="autotester"/>
+			<Option target="unit_testing"/>
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/DE/NextBipExtractor.cpp">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/DE/NextBipExtractor.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/DE/NextExtractor.cpp">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/DE/NextExtractor.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/DE/NextStarExtractor.cpp">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/DE/NextStarExtractor.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/DE/TransitiveExtractor.cpp">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/DE/TransitiveExtractor.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/DE/UsesModifiesExtractor.cpp">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/DE/UsesModifiesExtractor.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/DoubleColumnResult.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/DoubleColumnResults.cpp">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/Hasher.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/IntermediateResult.cpp">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/IntermediateResult.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/PKB/AffectsCache.cpp">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/PKB/AffectsCache.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/PKB/Cache.cpp">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/PKB/Cache.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/PKB/CallsStore.cpp">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/PKB/CallsStore.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/PKB/Definitions.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/PKB/FollowsStore.cpp">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/PKB/FollowsStore.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/PKB/ModifiesStore.cpp">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/PKB/ModifiesStore.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/PKB/NextBipStore.cpp">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/PKB/NextBipStore.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/PKB/NextStarCache.cpp">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/PKB/NextStarCache.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/PKB/NextStore.cpp">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/PKB/NextStore.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/PKB/PKB.cpp">
+			<Option target="spa"/>
+			<Option target="autotester"/>
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/PKB/PKB.h">
+			<Option target="spa"/>
+			<Option target="autotester"/>
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/PKB/ParentStore.cpp">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/PKB/ParentStore.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/PKB/Relationship.cpp">
+			<Option target="spa"/>
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/PKB/Relationship.h">
+			<Option target="spa"/>
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/PKB/Store.cpp">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/PKB/Store.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/PKB/Table.cpp">
+			<Option target="spa"/>
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/PKB/Table.h">
+			<Option target="spa"/>
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/PKB/UsesStore.cpp">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/PKB/UsesStore.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/Parser/AddToPKB.cpp">
+			<Option target="spa"/>
+			<Option target="unit_testing"/>
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/Parser/AddToPKB.h">
+			<Option target="spa"/>
+			<Option target="unit_testing"/>
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/Parser/AssignmentParser.cpp">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/Parser/AssignmentParser.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/Parser/AssignmentValidator.cpp">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/Parser/AssignmentValidator.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/Parser/BlockStmtParser.cpp">
+			<Option target="spa"/>
+			<Option target="autotester"/>
+			<Option target="unit_testing"/>
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/Parser/BlockStmtParser.h">
+			<Option target="spa"/>
+			<Option target="autotester"/>
+			<Option target="unit_testing"/>
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/Parser/CallParser.cpp">
+			<Option target="spa"/>
+			<Option target="unit_testing"/>
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/Parser/CallParser.h">
+			<Option target="spa"/>
+			<Option target="unit_testing"/>
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/Parser/CondExprParser.cpp">
+			<Option target="spa"/>
+			<Option target="unit_testing"/>
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/Parser/CondExprParser.h">
+			<Option target="spa"/>
+			<Option target="unit_testing"/>
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/Parser/IfElseParser.cpp">
+			<Option target="spa"/>
+			<Option target="unit_testing"/>
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/Parser/IfElseParser.h">
+			<Option target="spa"/>
+			<Option target="unit_testing"/>
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/Parser/Parser.cpp">
+			<Option target="autotester"/>
+			<Option target="unit_testing"/>
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/Parser/Parser.h">
+			<Option target="spa"/>
+			<Option target="autotester"/>
+			<Option target="unit_testing"/>
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/Parser/ParserUtility.cpp">
+			<Option target="spa"/>
+			<Option target="autotester"/>
+			<Option target="unit_testing"/>
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/Parser/ParserUtility.h">
+			<Option target="spa"/>
+			<Option target="autotester"/>
+			<Option target="unit_testing"/>
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/Parser/PrintParser.cpp">
+			<Option target="spa"/>
+			<Option target="unit_testing"/>
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/Parser/PrintParser.h">
+			<Option target="spa"/>
+			<Option target="unit_testing"/>
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/Parser/ProcedureParser.cpp">
+			<Option target="spa"/>
+			<Option target="unit_testing"/>
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/Parser/ProcedureParser.h">
+			<Option target="spa"/>
+			<Option target="unit_testing"/>
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/Parser/ReadParser.cpp">
+			<Option target="spa"/>
+			<Option target="unit_testing"/>
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/Parser/ReadParser.h">
+			<Option target="spa"/>
+			<Option target="unit_testing"/>
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/Parser/StmtLstParser.cpp">
+			<Option target="spa"/>
+			<Option target="unit_testing"/>
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/Parser/StmtLstParser.h">
+			<Option target="spa"/>
+			<Option target="unit_testing"/>
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/Parser/StmtParser.cpp">
+			<Option target="spa"/>
+			<Option target="unit_testing"/>
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/Parser/StmtParser.h">
+			<Option target="spa"/>
+			<Option target="unit_testing"/>
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/Parser/Tokeniser.cpp">
+			<Option target="autotester"/>
+			<Option target="unit_testing"/>
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/Parser/Tokeniser.h">
+			<Option target="spa"/>
+			<Option target="autotester"/>
+			<Option target="unit_testing"/>
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/Parser/WhileParser.cpp">
+			<Option target="autotester"/>
+			<Option target="unit_testing"/>
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/Parser/WhileParser.h">
+			<Option target="autotester"/>
+			<Option target="unit_testing"/>
+			<Option target="integration_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/ParserException.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/PatternEvaluator.cpp">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/PatternEvaluator.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/QPPUtil.cpp">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/QPPUtil.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/Query.cpp">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/Query.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/QueryClause.cpp">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/QueryClause.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/QueryClauseResult.cpp">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/QueryClauseResult.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/QueryElement.cpp">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/QueryElement.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/QueryEvaluator.cpp">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/QueryEvaluator.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/QueryOptimiser.cpp">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/QueryOptimiser.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/QueryPreprocessor.cpp">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/QueryPreprocessor.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/QueryResultProjector.cpp">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/QueryResultProjector.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/QueryValidator.cpp">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/QueryValidator.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/SetProcessor.cpp">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/SetProcessor.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/StatementTypes.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/SuchThatEvaluator.cpp">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/SuchThatEvaluator.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/TreeProcessor.cpp">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/TreeProcessor.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/TreeProcessorToPKB.cpp">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/TreeProcessorToPKB.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/WithEvaluator.cpp">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/src/WithEvaluator.h">
+			<Option target="spa"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/unit_testing/src/AssignmentValidatorTest.cpp">
+			<Option target="unit_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/unit_testing/src/CallParserTest.cpp">
+			<Option target="unit_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/unit_testing/src/CondExprParserTest.cpp">
+			<Option target="unit_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/unit_testing/src/DoubleColumnResultTest.cpp">
+			<Option target="unit_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/unit_testing/src/IntermediateResultTest.cpp">
+			<Option target="unit_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/unit_testing/src/ParserTest.cpp">
+			<Option target="unit_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/unit_testing/src/ParserUtilityTest.cpp">
+			<Option target="unit_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/unit_testing/src/PrintParserTest.cpp">
+			<Option target="unit_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/unit_testing/src/ReadParserTest.cpp">
+			<Option target="unit_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/unit_testing/src/TestBinaryTree.cpp">
+			<Option target="unit_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/unit_testing/src/TestDE.cpp">
+			<Option target="unit_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/unit_testing/src/TestGraph.cpp">
+			<Option target="unit_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/unit_testing/src/TestLinkedList.cpp">
+			<Option target="unit_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/unit_testing/src/TestPKB.cpp">
+			<Option target="unit_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/unit_testing/src/TestPKBGetAssign.cpp">
+			<Option target="unit_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/unit_testing/src/TestPKBTable.cpp">
+			<Option target="unit_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/unit_testing/src/TestQE.cpp">
+			<Option target="unit_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/unit_testing/src/TestQueryPreprocessor.cpp">
+			<Option target="unit_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/unit_testing/src/TestQueryValidator.cpp">
+			<Option target="unit_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/unit_testing/src/TestRelationship.cpp">
+			<Option target="unit_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/unit_testing/src/TestTreeProcessor.cpp">
+			<Option target="unit_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/unit_testing/src/TokeniserTest.cpp">
+			<Option target="unit_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/unit_testing/src/main.cpp">
+			<Option target="unit_testing"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake/FindAUTOTESTER.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/spa/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\spa\"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/autotester/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\autotester\"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/unit_testing/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\unit_testing\"/>
+		</Unit>
+		<Unit filename="/Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/src/integration_testing/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\integration_testing\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

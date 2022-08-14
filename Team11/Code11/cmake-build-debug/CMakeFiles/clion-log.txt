@@ -1,0 +1,25 @@
+/Applications/CMake.app/Contents/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11
+CMake Warning at /Applications/CMake.app/Contents/share/cmake-3.20/Modules/Platform/Darwin-Initialize.cmake:303 (message):
+  Ignoring CMAKE_OSX_SYSROOT value:
+
+   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk
+
+  because the directory does not exist.
+Call Stack (most recent call first):
+  /Applications/CMake.app/Contents/share/cmake-3.20/Modules/CMakeSystemSpecificInitialize.cmake:21 (include)
+  CMakeLists.txt:2 (project)
+
+
+-- /Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11 /Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-debug
+
+
+*********************
+
+DEBUG Build Type
+
+*********************
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/xuanzhi/Desktop/21s1-cp-spa-team-11/Team11/Code11/cmake-build-debug
